@@ -6,3 +6,36 @@
   max-height: 400px;
   overflow: auto;
 }
+
+body{
+	padding-top: 50px;
+
+}
+
+header{
+	margin: auto;
+}
+
+.navbar-brand{
+	color:#3366FF;font-family:"Oleo Script","Helvetica Neue",Helvetica,Arial,cursive;
+}
+
+.navbar-default {
+    background-color: #282828;
+    border-color: #336699;
+}
+
+.h1{
+	margin: auto;
+}
+.intro-text{
+	text-align:center;padding-top:80px;padding-bottom:40px
+}
+.intro-text .intro-heading{
+	color:#336699;font-family:"Oleo Script","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:500;font-size:40px;line-height:40px;margin-bottom:5px
+}
+
+.newListing{
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
