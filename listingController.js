@@ -22,6 +22,8 @@ angular.module('listings').controller('ListingsController', ['$scope', 'Listings
     $scope.deleteListing = function(index) {
     	$scope.listings.splice(index,1);
     };
+
+    //checks to see if the coordinates field exists
     $scope.showDetails = function(index) {
     	$scope.wantDetails = true;
     	if(angular.isUndefined($scope.listings[index].coordinates)){
